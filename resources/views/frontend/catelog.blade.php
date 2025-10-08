@@ -5,6 +5,7 @@
 <div class="artist-cover">
     <div class="artist-cover__content">
         <h1 class="artist-cover__title">Catalogue</h1>
+        <p class="artist-cover__subtitle">Explore the catalogues showcasing the works of Savi Sawarkar.</p>
     </div>
 </div>
 
