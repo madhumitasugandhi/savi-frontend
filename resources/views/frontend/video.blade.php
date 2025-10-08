@@ -1,6 +1,12 @@
 @extends('frontend.layout.main')
 @section('main-container')
 
+<div class="artist-cover">
+    <div class="artist-cover__content">
+      <h1 class="artist-cover__title">Video</h1>
+      <p class="artist-cover__subtitle">Explore the visual narratives crafted by Savi Sawarkar.</p>
+    </div>
+  </div>
 <section class="video-page-wrapper">
   <h2 class="video-page-title">Video Gallery</h2>
 
