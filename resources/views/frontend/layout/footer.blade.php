@@ -1,4 +1,4 @@
-<footer id="footer" class="footer light-background">
+<footer id="footer" class="footer light-background" style="font-family: sans-serif;">
   <div class="container">
     <div class="row g-4">
       <div class="col-md-6 col-lg-4 mb-3 mb-md-0">
