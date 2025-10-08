@@ -59,13 +59,13 @@
                         </script>
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="{{asset('assets/img/home/Untitled-235.jpg')}}" alt="Image" class="img-fluid">
+                                <img src="{{asset('assets/img/home/Untitled-235.jpg')}}" alt="Image" class="img-fluid rounded rounded-5 border-none">
                             </div>
                             <div class="swiper-slide">
-                                <img src="{{asset('assets/img/home/016.jpg')}}" alt="Image" class="img-fluid">
+                                <img src="{{asset('assets/img/home/016.jpg')}}" alt="Image" class="img-fluid rounded rounded-5 border-none">
                             </div>
                             <div class="swiper-slide">
-                                <img src="{{asset('assets/img/home/Untitled-244.jpg')}}" alt="Image" class="img-fluid">
+                                <img src="{{asset('assets/img/home/Untitled-244.jpg')}}" alt="Image" class="img-fluid rounded rounded-5 border-none">
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>
