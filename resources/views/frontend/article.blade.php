@@ -1,6 +1,12 @@
 @extends('frontend.layout.main')
 @section('main-container')
 
+<div class="artist-cover">
+    <div class="artist-cover__content">
+      <h1 class="artist-cover__title">Articles</h1>
+      <p class="artist-cover__subtitle">Explore the written narratives crafted by Savi Sawarkar.</p>
+    </div>
+  </div>
 <section class="article-page-wrapper">
     <h2 class="article-page-title">Latest Articles</h2>
 
