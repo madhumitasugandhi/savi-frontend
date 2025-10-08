@@ -2,7 +2,12 @@
 
 @section('main-container')
 
-
+<div class="artist-cover">
+    <div class="artist-cover__content">
+      <h1 class="artist-cover__title">Contact</h1>
+      <p class="artist-cover__subtitle">Get in touch with Savi Sawarkar.</p>
+    </div>
+  </div>
 <div class="contact-wrapper">
     <h1 class="contact-header">Get In Touch</h1>
 
