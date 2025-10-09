@@ -1,72 +1,90 @@
-<footer id="footer" class="footer light-background" style="font-family: sans-serif;">
+<footer id="footer" class="footer" style="background: #0b1736; color: #e8e4d9; font-family: 'Poppins', sans-serif; padding: 60px 0 30px;">
   <div class="container">
     <div class="row g-4">
-      <div class="col-md-6 col-lg-4 mb-3 mb-md-0">
+
+      <!-- About Section -->
+      <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
         <div class="widget">
-          <h3 class="widget-heading">About Us</h3>
-          <p class="mb-4">
-            I'm Savindra Sawarkar A passionate Artist who are working in this field for last 40 years. Riachard Ryan My
-            Notable Art Works Foundation of India.
+          <h3 class="widget-heading text-uppercase fw-bold mb-3" style="color: #f6c343;">About</h3>
+          <p style="font-size: 15px; line-height: 1.8; color: #d9d7ce;">
+            I'm <strong style="color: #f6c343;">Savindra Sawarkar</strong> — a passionate artist working in the creative field for over 40 years. 
+            My artworks reflect the essence of culture, humanity, and deep spiritual connections.
           </p>
-          {{-- <p class="mb-0">
-            <a href="#" class="btn-learn-more">Learn more</a>
-          </p> --}}
         </div>
       </div>
-      <div class="col-md-6 col-lg-4  mb-3 mb-md-0">
+
+      <!-- Navigation Section -->
+      <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
         <div class="widget">
-          <h3 class="widget-heading">Navigation</h3>
-          <ul class="list-unstyled float-start me-5">
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/article">Articles</a></li>
-          </ul>
-          <ul class="list-unstyled ">
-            <li><a href="/catelog">Catalogue</a></li>
-            <li><a href="/  ">Photography</a></li>
+          <h3 class="widget-heading text-uppercase fw-bold mb-3" style="color: #f6c343;">Quick Links</h3>
+          <ul class="list-unstyled" style="column-count: 2; column-gap: 30px;">
+            <li><a href="/about" class="footer-link" style="color: #edece9;  ">About</a></li>
+            <li><a href="/contact" class="footer-link" style="color: #edece9;">Contact</a></li>
+            <li><a href="/article" class="footer-link" style="color: #edece9;">Articles</a></li>
+            <li><a href="/catelog" class="footer-link" style="color: #edece9;">Catalogue</a></li>
+            <li><a href="/" class="footer-link" style="color: #edece9;">Photography</a></li>
           </ul>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-4 pl-lg-5">
+      <!-- Connect Section -->
+      <div class="col-md-6 col-lg-4">
         <div class="widget">
-          <h3 class="widget-heading">Connect</h3>
-          <ul class="list-unstyled social-icons light mb-3">
-            <li>
-              <a href="https://www.facebook.com/savi.sawarkar.73?mibextid=rS40aB7S9Ucbxw6v"><span
-                  class="bi bi-facebook"></span></a>
-            </li>
-            {{-- <li>
-              <a href="#"><span class="bi bi-youtube"></span></a>
-            </li> --}}
-            <li>
-              <a href="https://www.linkedin.com/in/savi-sawarkar/"><span class="bi bi-linkedin"></span></a>
-            </li>
-            <li>
-              <a href="https://wa.me/9968149430" target="_blank">
-                <span class="bi bi-whatsapp"></span>
-              </a>
-            </li>
-
-            <li>
-              <a href="https://www.instagram.com/savindrasawarkar?utm_source=qr&igsh=Z2RweXFxcm10cXVi "><span
-                  class="bi bi-instagram"></span></a>
-            </li>
+          <h3 class="widget-heading text-uppercase fw-bold mb-3" style="color: #f6c343;">Connect</h3>
+          <ul class="list-unstyled d-flex gap-3">
+            <li><a href="https://www.facebook.com/savi.sawarkar.73?mibextid=rS40aB7S9Ucbxw6v" class="social-link"><span class="bi bi-facebook" style="color: #edece9;"></span></a></li>
+            <li><a href="https://www.linkedin.com/in/savi-sawarkar/" class="social-link"><span class="bi bi-linkedin" style="color: #edece9;"></span></a></li>
+            <li><a href="https://wa.me/9968149430" target="_blank" class="social-link"><span class="bi bi-whatsapp" style="color: #edece9;"></span></a></li>
+            <li><a href="https://www.instagram.com/savindrasawarkar?utm_source=qr&igsh=Z2RweXFxcm10cXVi" class="social-link"><span class="bi bi-instagram" style="color: #edece9;"></span></a></li>
           </ul>
         </div>
       </div>
+
     </div>
 
-    <div class="copyright align-items-center justify-content-center">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">SaviSawarkar.</strong> <span>All Rights Reserved</span>
+    <hr style="border-color: rgba(255,255,255,0.1); margin: 40px 0;">
+
+    <div class="text-center">
+      <p class="mb-0" style="font-size: 14px;">
+        © <span>2025</span> <strong class="sitename" style="color:#f6c343;">SaviSawarkar</strong> — All Rights Reserved
       </p>
+      <p style="font-size: 13px; color: #9fa4b8;">Crafted with peace and mindfulness <i class="bi bi-peace"></i> </p>
     </div>
   </div>
 </footer>
 
+<style>
+  .footer-link {
+   
+    text-decoration: none;
+    display: block;
+    padding: 3px 0;
+    transition: 0.3s;
+  }
+  .footer-link:hover {
+    color: #f6c343;
+    padding-left: 4px;
+  }
+
+  .social-link {
+    color: #e8e4d9;
+    font-size: 1.4rem;
+    transition: all 0.3s ease;
+  }
+  .social-link:hover {
+    color: #f6c343;
+    transform: scale(1.2);
+  }
+
+  .footer hr {
+    border-color: rgba(255, 255, 255, 0.15);
+  }
+</style>
+
 <!-- Scroll Top -->
-<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-    class="bi bi-arrow-up-short"></i></a>
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" style="background:#f6c343; color:#0b1736; margin-right: 15px;">
+  <i class="bi bi-arrow-up-short"></i>
+</a>
 
 <!-- Preloader -->
 <div id="preloader"></div>
