@@ -1,83 +1,63 @@
+<!-- Add this in your <head> -->
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+
 @extends('frontend.layout.main')
 @section('main-container')
 
 <style>
     body {
-       
-  background: #f4f4f2; /* off-white base like raw canvas */
-  background-image: 
-    radial-gradient(circle at 10% 10%, rgba(255,255,255,0.9) 0%, transparent 60%),
-    radial-gradient(circle at 90% 90%, rgba(255,255,255,0.9) 0%, transparent 60%),
-    repeating-linear-gradient(45deg, rgba(200,200,200,0.04) 0, rgba(200,200,200,0.04) 2px, transparent 2px, transparent 4px),
-    repeating-linear-gradient(-45deg, rgba(200,200,200,0.04) 0, rgba(200,200,200,0.04) 2px, transparent 2px, transparent 4px);
-  background-blend-mode: multiply;
-  color: #222;
-  font-family: 'Poppins', sans-serif;
-
-
+        color: #222;
+        font-family: 'Poppins', sans-serif;
+        background-color: #fff
     }
 
     /* Smooth typography */
-    h1, h2, h3 {
+    h1,
+    h2,
+    h3 {
         font-family: "Playfair Display", serif;
         letter-spacing: 0.5px;
     }
 
     /* Hero Section */
-   #about {
-  position: relative;
-  background: linear-gradient(135deg, #004179 0%, #276fbf 100%);
-  color: #fff;
-  overflow: hidden;
-}
+    #about {
+        position: relative;
+        background: linear-gradient(135deg, #004179 0%, #276fbf 100%);
+        color: #fff;
+        overflow: hidden;
+    }
 
-/* Wavey Canvas Texture Layer 1 */
-#about::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: 
-    radial-gradient(circle at 20% 40%, rgba(255,255,255,0.12) 0%, transparent 70%),
-    radial-gradient(circle at 80% 60%, rgba(255,255,255,0.10) 0%, transparent 70%),
-    radial-gradient(circle at 50% 80%, rgba(255,255,255,0.09) 0%, transparent 70%);
-  background-size: 140% 140%;
-  mix-blend-mode: overlay;
-  animation: waveMove1 25s ease-in-out infinite alternate;
-  opacity: 0.75; /* increased visibility */
-  z-index: 0;
-}
+    /* Background image only for article section (#about-2) */
+    #about-2 {
+        position: relative;
+        
+        background-size: contain;
+        /* or 'cover' if you want full stretch */
+        opacity: 1;
+        /* keep section visible */
+        z-index: 1;
+        isolation: isolate;
+        /* ensures pseudo-element blends correctly */
+    }
 
-/* Layer 2 (depth + painterly effect) */
-#about::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(circle at 30% 20%, rgba(255,255,255,0.08) 0%, transparent 80%),
-    radial-gradient(circle at 70% 80%, rgba(255,255,255,0.07) 0%, transparent 80%),
-    radial-gradient(circle at 50% 50%, rgba(255,255,255,0.09) 0%, transparent 80%);
-  background-size: 180% 180%;
-  mix-blend-mode: soft-light;
-  animation: waveMove2 35s ease-in-out infinite alternate;
-  opacity: 0.7; /* more visible waves */
-  z-index: 0;
-}
+    /* Overlay to control opacity */
+    #about-2::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: url("{{ asset('assets/img/logo.jpg') }}") center center no-repeat;
+        background-size: contain;
+        /* or 'cover' */
+        opacity: 0.3;
+        /* makes image faint */
+        z-index: -1;
+    }
 
-/* Smooth organic motion */
-@keyframes waveMove1 {
-  0% { background-position: 0% 50%, 50% 100%, 100% 0%; }
-  100% { background-position: 100% 0%, 0% 50%, 50% 100%; }
-}
 
-@keyframes waveMove2 {
-  0% { background-position: 50% 100%, 100% 50%, 0% 0%; }
-  100% { background-position: 0% 0%, 50% 50%, 100% 100%; }
-}
-
-#about .container {
-  position: relative;
-  z-index: 1;
-}
+    #about .container {
+        position: relative;
+        z-index: 1;
+    }
 
 
 
@@ -110,7 +90,7 @@
             max-height: 80%;
             object-fit: cover;
             border-radius: 15px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
             transition: transform 0.4s ease;
         }
 
@@ -121,7 +101,7 @@
 
     /* About Section */
     #about-2 {
-       
+
         padding: 80px 0;
     }
 
@@ -157,7 +137,7 @@
     .main-carousel {
         background-color: #002d5b;
         padding: 60px 0;
-        margin-bottom: 60px ;
+        margin-bottom: 60px;
     }
 
     .carousel {
@@ -181,7 +161,6 @@
     .carousel article img:hover {
         transform: scale(1.07);
     }
-
 </style>
 
 <!-- Hero Section -->
@@ -209,10 +188,12 @@
                 </div>
             </div>
             <div class="col-lg-4 order-lg-1">
-                <h1 class="section-subtitle" data-aos="fade-up" style="color: #ffd700;">Savi Sawarkar</h1>
-                <h3 class="mb-4" style="font-style: italic; color: #3c9df1;" data-aos="fade-up">Dalit Subjectivity Artist</h3>
+                <h1 class="section-subtitle" data-aos="fade-up" style="color:#b79b3d; font-family:'Anton', sans-serif;">Savi Sawarkar</h1>
+                <h3 class="mb-4" style="font-style: italic; color: #3c9df1;" data-aos="fade-up">Dalit Subjectivity
+                    Artist</h3>
                 <p data-aos="fade-up" style="color: #c1c3c5">
-                    Assistant Professor in Delhi with a deep engagement in the fine arts — exploring the intersections of caste, gender, and visual narratives through <i>Murals, Oil Painting, and Mixed Media</i>.
+                    Assistant Professor in Delhi with a deep engagement in the fine arts — exploring the intersections
+                    of caste, gender, and visual narratives through <i>Murals, Oil Painting, and Mixed Media</i>.
                 </p>
                 <p class="mt-5" data-aos="fade-up">
                     <a href="/about" class="btn btn-get-started">Know More</a>
@@ -228,7 +209,8 @@
         <div class="content px-4">
             <div class="row align-items-center mb-5">
                 <div class="col-lg-4 mb-4 mb-lg-0" data-aos="fade-right">
-                    <div class="img-wrap">
+                    <div class="img-wrap"
+                        style="border-left: solid 4px #002d5b; padding: 20px;">
                         <img src="{{asset('assets/img/home/001.jpg')}}" alt="Artist Image" class="img-fluid main-img">
                     </div>
                 </div>
@@ -237,10 +219,13 @@
                         <span class="content-subtitle">Artist Statement</span>
                         <h2 class="content-title">Savindra Sawarkar (b.1961, Nagpur)</h2>
                         <p class="lead">
-                            My art practice engages deeply with the brutality and injustice of caste and gender hierarchies. It is an exploration of the body, identity, and resistance.
+                            My art practice engages deeply with the brutality and injustice of caste and gender
+                            hierarchies. It is an exploration of the body, identity, and resistance.
                         </p>
                         <p style="font-size: 15px;">
-                            Born in a Dalit family in Nagpur — a city marked by the historic Deeksha Bhoomi — my practice carries the legacy of social transformation envisioned by Dr. B.R. Ambedkar. Each canvas is a reflection of both memory and protest.
+                            Born in a Dalit family in Nagpur — a city marked by the historic Deeksha Bhoomi — my
+                            practice carries the legacy of social transformation envisioned by Dr. B.R. Ambedkar. Each
+                            canvas is a reflection of both memory and protest.
                         </p>
                     </div>
                 </div>
@@ -250,15 +235,18 @@
                 <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-right">
                     <div class="text-content px-3">
                         <p style="font-size: 15px;">
-                            My journey through Baroda and Mexico shaped a visual language grounded in empathy and dissent — where the lives of the marginalized become symbols of endurance and beauty.
+                            My journey through Baroda and Mexico shaped a visual language grounded in empathy and
+                            dissent — where the lives of the marginalized become symbols of endurance and beauty.
                         </p>
                         <p style="font-size: 15px;">
-                            I continue to exhibit beyond the commercial sphere, preferring academic and activist spaces — from universities to urban streets — where art becomes a medium of dialogue, not decoration.
+                            I continue to exhibit beyond the commercial sphere, preferring academic and activist spaces
+                            — from universities to urban streets — where art becomes a medium of dialogue, not
+                            decoration.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2 mb-4 mb-lg-0" data-aos="fade-left">
-                    <div class="img-wrap">
+                    <div class="img-wrap" style="border-left: solid 4px #002d5b; padding: 20px;">
                         <img src="{{asset('assets/img/home/007A.jpg')}}" alt="Art Image" class="img-fluid second-img">
                     </div>
                 </div>
@@ -280,4 +268,3 @@
 </div>
 
 @endsection
-
