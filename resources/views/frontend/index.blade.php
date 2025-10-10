@@ -190,6 +190,134 @@
     .carousel article img:hover {
         transform: scale(1.07);
     }
+    /* ✅ RESPONSIVENESS STARTS HERE */
+
+/* For large screens (default desktop behavior remains same) */
+@media (max-width: 1200px) {
+    .watermark-text h1 {
+        font-size: 4rem !important;
+    }
+    .watermark-text h4 {
+        font-size: 2rem !important;
+    }
+}
+
+/* For tablets */
+@media (max-width: 992px) {
+    #about {
+        text-align: center;
+        padding: 60px 0;
+    }
+
+    .watermark-text {
+        position: static !important;
+        text-align: center !important;
+        padding: 0 !important;
+        transform: none !important;
+        margin-bottom: 30px;
+    }
+
+    .watermark-text h1 {
+        font-size: 3rem !important;
+    }
+
+    .watermark-text h4 {
+        font-size: 1.6rem !important;
+    }
+
+    .col-lg-7,
+    .col-lg-4 {
+        text-align: center !important;
+    }
+
+    .swiper-slide img {
+        max-height: 400px !important;
+        width: 100% !important;
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 768px) {
+    .watermark-text h1 {
+        font-size: 2.2rem !important;
+    }
+
+    .watermark-text h4 {
+        font-size: 1.2rem !important;
+    }
+
+    .btn-get-started {
+        padding: 8px 20px !important;
+        font-size: 14px !important;
+    }
+
+    .content-title {
+        font-size: 26px !important;
+    }
+
+    .text-content p {
+        font-size: 15px !important;
+    }
+
+    .img-wrap,
+    .img-wrap2 {
+        padding: 10px !important;
+    }
+
+    
+}
+
+/* For small mobile screens */
+@media (max-width: 576px) {
+    #about {
+        padding: 50px 0 !important;
+    }
+
+    .watermark-text h1 {
+        font-size: 1.8rem !important;
+        line-height: 1.3 !important;
+    }
+
+    .watermark-text h4 {
+        font-size: 1rem !important;
+    }
+
+    .swiper-slide img {
+        max-height: 280px !important;
+        border-radius: 15px !important;
+        width: 90% !important;
+    }
+
+    .content-title {
+        font-size: 22px !important;
+    }
+
+   
+}
+
+/* Footer Responsive */
+@media (max-width: 768px) {
+    .footer .row {
+        text-align: center;
+    }
+
+    .footer .social-link {
+        font-size: 1.6rem;
+    }
+
+    .footer .list-unstyled {
+        column-count: 1 !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        padding: 40px 0 20px !important;
+    }
+}
+
+/* ✅ RESPONSIVENESS ENDS HERE */
+
 </style>
 
 <!-- Hero Section -->
