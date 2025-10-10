@@ -38,6 +38,18 @@
       font-size: 1rem !important;
     }
   }
+  @media (max-width: 480px) {
+    .foundation-title h1 {
+      font-size: 1.4rem !important;
+    }
+    .foundation-title h4 {
+      font-size: 0.8rem !important;
+    }
+    .logo img {
+      height: 60px;
+      margin-right: 8px;
+    }
+  }
 </style>
 
 <!-- HEADER -->
