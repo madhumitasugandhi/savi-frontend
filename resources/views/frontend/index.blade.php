@@ -233,7 +233,10 @@
     .swiper-slide img {
         max-height: 400px !important;
         width: 100% !important;
+        border-radius: 15px !important;
     }
+   
+   
 }
 
 /* For mobile screens */
