@@ -157,8 +157,10 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 32px;
+  max-height: 150px;
   margin-right: 8px;
+  max-width: 130px;
+  border-right: #052f5b solid 4px;
 }
 
 .header .logo h1 {
@@ -432,11 +434,11 @@ h6 {
 }
 
 .footer a {
-  color: var(--default-color) !important;
+  color: #edece9 !important;
 }
 
 .footer a:hover {
-  color: var(--accent-color);
+  color: #f8c146;
 }
 
 .footer .copyright {
@@ -730,9 +732,6 @@ section,
 # About Section
 --------------------------------------------------------------*/
 
-
-
-
 .about .btn-get-started {
   background-color: var(--accent-color);
   color: var(--contrast-color);
@@ -776,15 +775,11 @@ section,
 }
 
 .about .section-subtitle {
-  font-size: 25px;
+  font-size: 40px;
   margin-bottom: 10px;
-  font-family: ui-serif;
-  /* font-weight: 600; */
+   font-weight: lighter; 
   display: block;
-  color: var(--default-color);
-   animation: twinkle 1.5s infinite;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
-               0 0 10px rgba(255, 255, 255, 0.3);
+  font-family: 'Anton', sans-serif;
 }
 
 @keyframes twinkle {
@@ -800,7 +795,6 @@ section,
 # About 2 Section
 --------------------------------------------------------------*/
 .about-2 .content {
-  background-color: var(--surface-color);
   padding-top: 30px;
 }
 
@@ -809,6 +803,7 @@ section,
   margin-bottom: 10px;
   display: block;
   color: var(--default-color);
+  font-family:fantasy;
 }
 
 .about-2 .content-title {
@@ -857,7 +852,7 @@ section,
   border-radius: 5px;
   object-fit: cover;
   display: block;
-  margin: 0 auto;
+  margin: 0 ;
 }
 
 .about-2 .main-img,
