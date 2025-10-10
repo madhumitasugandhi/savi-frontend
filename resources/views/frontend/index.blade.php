@@ -174,7 +174,8 @@
         overflow-x: auto;
         scroll-behavior: smooth;
         padding: 20px;
-        height: 230px;
+        height: 250px;
+        
         
     }
 
