@@ -10,7 +10,7 @@
     right: 0;
     top: 50%;
     height: 6px;
-   
+
     transform: translateY(-50%);
     z-index: 0;
     
@@ -19,6 +19,8 @@
   .foundation-title .title-content {
     position: relative;
     z-index: 1;
+    border-left: #004179 solid 4px;
+    padding: 10px
   }
 
   /* Optional: Make logo look consistent */
@@ -27,6 +29,7 @@
     width: auto;
     margin-right: 12px;
     object-fit: contain;
+    
   }
 
   /* Responsive tweak */
