@@ -1,4 +1,4 @@
-<footer id="footer" class="footer" style="background: #004179; color: #e8e4d9; font-family: 'Poppins', sans-serif; padding: 60px 0 30px;">
+<footer id="footer" class="footer" style="background:  #dfdfe1 ; color:  #004179; font-family: 'Poppins', sans-serif; padding: 60px 0 30px; ">
   <div class="container">
     <div class="row g-4">
 
@@ -6,10 +6,10 @@
       <div class="col-md-8 col-lg-4 mb-4 mb-md-0">
         <a href="/" class="logo d-flex align-items-center">
       <!-- ✅ Correct image path for Laravel -->
-      <img src="{{ asset('assets/img/logo.jpg') }}" alt="Logo">
+      <img src="{{ asset('assets/img/logo.png') }}" alt="Logo">
 
       <div>
-        <div class="foundation-title position-relative mt-2" style="border-left: #b79b3d solid 4px; padding-left: 5px;">
+        <div class="foundation-title position-relative mt-2" style=" padding-left: 10px;">
           <div class="title-content position-relative" >
             <h1 class="mb-0 fw-bold"
                 style="color:#b79b3d; font-size:1.8rem; line-height:1.5; font-family:'Anton', sans-serif;">
@@ -24,9 +24,9 @@
       </div>
     </a>
         <div class="widget">
-          <h3 class="widget-heading text-uppercase fw-bold my-3" style="color:  #b79b3d;">About</h3>
-          <p style="font-size: 15px; line-height: 1.8; color: #d9d7ce;">
-            I'm <strong style="color:#b79b3d; font-family: 'Poppins', sans-serif; font-weight: bold;">Savindra Sawarkar</strong> — a passionate artist working in the creative field for over 40 years. 
+          <h3 class="widget-heading text-uppercase my-3" style="color:  #004179; font-family:'Anton', sans-serif;">About</h3>
+          <p style="font-size: 15px; line-height: 1.8; color:  #004179;">
+            I'm Savindra Sawarkar — a passionate artist working in the creative field for over 40 years. 
             My artworks reflect the essence of culture, humanity, and deep spiritual connections.
           </p>
         </div>
@@ -35,13 +35,13 @@
       <!-- Navigation Section -->
       <div class="col-md-2 col-lg-4 my-4 mb-md-0">
         <div class="widget m-4">
-          <h3 class="widget-heading text-uppercase fw-bold mb-3 mx-5" style="color:  #b79b3d;">Quick Links</h3>
+          <h3 class="widget-heading text-uppercase  mb-3 mx-5" style="color:  #004179; font-family:'Anton', sans-serif;">Links</h3>
           <ul class="list-unstyled mx-5" style="column-count: ; column-gap: 30px;">
-            <li><a href="/about" class="footer-link" style="color: #edece9;  ">About</a></li>
-            <li><a href="/contact" class="footer-link" style="color: #edece9;">Contact</a></li>
-            <li><a href="/article" class="footer-link" style="color: #edece9;">Articles</a></li>
-            <li><a href="/catelog" class="footer-link" style="color: #edece9;">Catalogue</a></li>
-            <li><a href="/" class="footer-link" style="color: #edece9;">Photography</a></li>
+            <li><a href="/about" class="footer-link" style="color:  #004179;">About</a></li>
+            <li><a href="/contact" class="footer-link" style="color: #004179;">Contact</a></li>
+            <li><a href="/article" class="footer-link" style="color: #004179;">Articles</a></li>
+            <li><a href="/catelog" class="footer-link" style="color: #004179;">Catalogue</a></li>
+            <li><a href="/" class="footer-link" style="color: #004179;">Photography</a></li>
           </ul>
         </div>
       </div>
@@ -49,25 +49,25 @@
       <!-- Connect Section -->
       <div class="col-md-2 col-lg-4 my-4 mb-md-0">
         <div class="widget m-4" >
-          <h3 class="widget-heading text-uppercase fw-bold mb-3 mx-4" style="color:  #b79b3d;">Connect</h3>
-          <ul class="list-unstyled mx-5 gap-3" >
-            <li><a href="https://www.facebook.com/savi.sawarkar.73?mibextid=rS40aB7S9Ucbxw6v" class="social-link"><span class="bi bi-facebook" style="color: #edece9;"></span></a></li>
-            <li><a href="https://www.linkedin.com/in/savi-sawarkar/" class="social-link"><span class="bi bi-linkedin" style="color: #edece9;"></span></a></li>
-            <li><a href="https://wa.me/9968149430" target="_blank" class="social-link"><span class="bi bi-whatsapp" style="color: #edece9;"></span></a></li>
-            <li><a href="https://www.instagram.com/savindrasawarkar?utm_source=qr&igsh=Z2RweXFxcm10cXVi" class="social-link"><span class="bi bi-instagram" style="color: #edece9;"></span></a></li>
+          <h3 class="widget-heading text-uppercase mb-3 mx-4" style="color:  #004179; font-family:'Anton', sans-serif;">Connect</h3>
+          <ul class="list-unstyled ms-4 my-4 gap-4">
+            <li><a href="https://www.facebook.com/savi.sawarkar.73?mibextid=rS40aB7S9Ucbxw6v" class="social-link"><span class="bi bi-facebook" style="color:  #004179; padding-bottom: 15px;"></span></a></li>
+            <li><a href="https://www.linkedin.com/in/savi-sawarkar/" class="social-link"><span class="bi bi-linkedin" style="color: #004179;"></span></a></li>
+            <li><a href="https://wa.me/9968149430" target="_blank" class="social-link"><span class="bi bi-whatsapp" style="color: #004179;"></span></a></li>
+            <li><a href="https://www.instagram.com/savindrasawarkar?utm_source=qr&igsh=Z2RweXFxcm10cXVi" class="social-link"><span class="bi bi-instagram" style="color: #004179;"></span></a></li>
           </ul>
         </div>
       </div>
 
     </div>
 
-    <hr style="border-color: rgba(245, 239, 239, 0.9); margin: 20px 0;">
+    <hr style="border-color: rgb( 0, 65, 121 ); margin: 20px 0;">
 
     <div class="text-center">
-      <p class="mb-0" style="font-size: 14px;">
-        © <span>2025</span> <strong class="sitename" style="color: #b79b3d;">SaviSawarkar</strong> — All Rights Reserved
+      <p class="mb-0" style="font-size: 16px;">
+        © <span>2025</span> SaviSawarkar — All Rights Reserved
       </p>
-      <p style="font-size: 13px; color: #9fa4b8;">Crafted with peace and mindfulness <i class="bi bi-peace"></i> </p>
+      <p style="font-size: 15px; color: #004179; font-family:sans-serif;">Crafted with Peace and Mindfulness <i class="bi bi-peace"></i> </p>
     </div>
   </div>
 </footer>
@@ -85,12 +85,12 @@
     padding-left: 4px;
   }
 
-  .social-link {
+  .social-link span{
     color: #e8e4d9;
     font-size: 1.4rem;
     transition: all 0.3s ease;
   }
-  .social-link:hover {
+  .social-link:hover span{
     color: #b79b3d;;
     transform: scale(1.2);
   }
@@ -104,7 +104,6 @@
     width: auto;
     margin-right: 12px;
     object-fit: contain;
-    border-radius: 50%;
   }
   /* ---------- RESPONSIVE FOOTER ---------- */
 @media (max-width: 992px) {
@@ -139,10 +138,7 @@
     padding: 40px 0 20px !important;
   }
 
-  #footer h3.widget-heading {
-    font-size: 1.2rem !important;
-  }
-
+  
   #footer p {
     font-size: 14px !important;
     line-height: 1.6 !important;
