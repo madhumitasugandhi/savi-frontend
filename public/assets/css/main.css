@@ -2713,7 +2713,7 @@ body {
 
 .artist-intro__text h2 {
     font-size: 36px;
-    color: #e63946;
+    color: #004179;
     margin-bottom: 20px;
     font-family: 'Playfair Display', serif;
 }
@@ -2729,7 +2729,7 @@ body {
   margin: 80px auto;
   padding: 50px 40px;
   background: #f9f9f9;
-  border-left: 6px solid #a9323a;
+  border-left: 6px solid #004179;
   border-radius: 12px;
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -2742,7 +2742,7 @@ body {
   margin-bottom: 30px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #a9323a;
+  color: #004179;
   border-bottom: 2px solid #ddd;
   padding-bottom: 10px;
 }
@@ -2795,7 +2795,7 @@ body {
 .achievement {
     background: #ffffff;
     padding: 20px;
-    border-left: 6px solid #e63946;
+    border-left: 6px solid #004179;
     border-radius: 10px;
     width: 750px;
     text-align: left;
@@ -2821,7 +2821,7 @@ body {
 
 /* CTA */
 .artist-cta {
-    background: linear-gradient(to right,#a9323a, #755b5b);
+    background: linear-gradient(to right,#3c9df1, #002d5b);
     padding: 60px 20px;
     color: white;
     text-align: center;
@@ -2877,12 +2877,12 @@ body {
 }
 
 .video-page-title {
-  font-size: 2.0rem;
   text-align: center;
   margin-bottom: 40px;
   font-weight: 700;
-  color: #1d1d1d;
-  border-bottom: 2px solid #c72b35;
+  font-size: 2.0rem;
+  color:#004179;
+  border-bottom: 3px solid #768692;
   display: inline-block;
   padding-bottom: 10px;
 }
@@ -2921,7 +2921,7 @@ body {
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 8px;
-  color: #9e1821;
+  color: #004179;
 }
 
 .video-text {
@@ -2954,9 +2954,9 @@ body {
   text-align: center;
   margin-bottom: 40px;
   font-weight: 700;
-  color: #2d465e;
   position: relative;
-  border-bottom: 3px solid #c72b35;
+  color:#004179;
+  border-bottom: 3px solid #768692;
   display: inline-block;
   font-family: ui-serif;
   padding-bottom: 10px;
@@ -2989,11 +2989,15 @@ body {
 
 .article-title {
   font-size: 1.4rem;
-  color: #c72b35;
+  color: #004179;
   font-weight: 600;
   margin-bottom: 6px;
 }
-
+.article-subtitle{
+  font-size: 1.2rem;
+  color: #b79b3d;
+  margin: 12px 0px;
+}
 .article-meta {
   font-size: 0.85rem;
   color: #888;
@@ -3001,7 +3005,7 @@ body {
 
 .article-body {
   font-size: 1rem;
-  color: #333;
+  color: #525252;
   line-height: 1.7;
   flex-grow: 1;
 }
@@ -3012,14 +3016,14 @@ body {
 
 .article-readmore {
   font-size: 0.95rem;
-  color: #c72b35;
+  color: #004179;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.2s ease;
 }
 
 .article-readmore:hover {
-  color: #9e1a23;
+  color:#b79b3d;
 }
 
 @media (max-width: 600px) {
@@ -3243,7 +3247,7 @@ body {
     .download-btn {
         display: inline-block;
         padding: 10px 18px;
-        background: #c72b35;
+        background: #004179;
         color: #fff;
         font-size: 14px;
         border: none;
@@ -3253,7 +3257,7 @@ body {
     }
 
     .download-btn:hover {
-        background: #7c1118;
+        background: #022f56;
         color: white;
     }
 
@@ -3271,16 +3275,16 @@ body {
         text-align: center;
         font-size: 2.6rem;
         font-weight: bold;
-        color: #222;
+        color:#004179;
         margin-bottom: 50px;
         position: relative;
     }
 
     .contact-header::after {
         content: '';
-        width: 60px;
+        width: 200px;
         height: 4px;
-        background: #c72b35;
+        background-color:#768692;
         display: block;
         margin: 10px auto 0;
         border-radius: 2px;
@@ -3307,11 +3311,13 @@ body {
 
     .contact-info-box:hover {
         background: #f1f1f1;
+        border: 1px solid rgb();
+        box-shadow: 0 4px 15px rgba(142, 111, 62,0.6);
     }
 
     .contact-icon {
         font-size: 34px;
-        color: #c72b35;
+        color:#004179;
         margin-bottom: 12px;
     }
 
@@ -3365,7 +3371,7 @@ body {
 
     .form-group input:focus,
     .form-group textarea:focus {
-        border-color: #c72b35;
+        border-color: #004179;
         box-shadow: 0 0 5px rgba(255, 94, 94, 0.2);
     }
 
@@ -3375,9 +3381,9 @@ body {
     }
 
     .submit-btn {
-        background-color: #c72b35;
+        background-color: #004179;
         color: #fff;
-        padding: 12px 24px;
+        padding: 8px 20px;
         border: none;
         font-size: 16px;
         border-radius: 8px;
@@ -3387,7 +3393,7 @@ body {
     }
 
     .submit-btn:hover {
-        background-color: #e14c4c;
+        background: #022f56;
     }
 
     .contact-map iframe {
