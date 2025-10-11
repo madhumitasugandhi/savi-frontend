@@ -434,11 +434,12 @@ h6 {
 }
 
 .footer a {
-  color: #edece9 !important;
+  color:  #004179 !important;
 }
 
 .footer a:hover {
-  color: #f8c146;
+  color: #004179 !important ;
+  font-weight: bold;
 }
 
 .footer .copyright {
@@ -470,8 +471,7 @@ h6 {
 }
 
 .footer .widget .widget-heading {
-  font-size: 18px;
-  color: var(--heading-color);
+  font-size: 22px;
   margin-bottom: 20px;
 }
 
@@ -2662,7 +2662,7 @@ body {
 
 /* Hero Cover */
 .artist-cover {
-    background: linear-gradient(135deg, #3b2f2f, #e63946);
+    background: linear-gradient(135deg, #002d5b, #3c9df1);
     padding: 100px 20px;
     color: white;
     text-align: center;
