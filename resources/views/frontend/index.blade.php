@@ -20,7 +20,7 @@
     }
     p{
         font-family: 'Poppins', sans-serif;
-        font-size: 16px;
+        font-size: 19px;
     }
 
     /* Hero Section */
