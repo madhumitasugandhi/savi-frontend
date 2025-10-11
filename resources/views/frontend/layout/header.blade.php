@@ -62,7 +62,7 @@
 
     <a href="/" class="logo d-flex align-items-center">
       <!-- ✅ Correct image path for Laravel -->
-      <img src="{{ asset('assets/img/logo.jpg') }}" alt="Logo">
+      <img src="{{ asset('assets/img/logo.png') }}" alt="Logo">
 
       <div>
         <div class="foundation-title position-relative mt-2">
