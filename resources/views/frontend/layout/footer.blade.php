@@ -3,29 +3,30 @@
     <div class="row g-4">
 
       <!-- About Section -->
-      <div class="col-md-8 col-lg-4 mb-4 mb-md-0">
+      <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
         <a href="/" class="logo d-flex align-items-center">
       <!-- ✅ Correct image path for Laravel -->
-      <img src="{{ asset('assets/img/logo.png') }}" alt="Logo">
-
+      <img src="{{ asset('assets/img/logo.png') }}" alt="Logo" style="height: 85px">
+      <!--
       <div>
         <div class="foundation-title position-relative mt-2" style=" padding-left: 10px;">
           <div class="title-content position-relative" >
             <h1 class="mb-0 fw-bold"
-                style="color:#b79b3d; font-size:1.8rem; line-height:1.5; font-family:'Anton', sans-serif;">
+                style="color:#b79b3d; font-size:1.6rem; line-height:1.5; font-family:'Anton', sans-serif;">
               Foundation of Libration
             </h1>
             <h4 class="mb-0"
-                style="color:#0f7fc8; font-size:1.0rem; font-family:sans-serif;">
+                style="color:#0f7fc8; font-size:0.9rem; font-family:sans-serif;">
               Buddhist Imagery and Dalit Subjectivity
             </h4>
           </div>
         </div>
       </div>
+    -->
     </a>
         <div class="widget">
           <h3 class="widget-heading text-uppercase my-3" style="color:  #004179; font-family:'Anton', sans-serif;">About</h3>
-          <p style="font-size: 15px; line-height: 1.8; color:  #004179;">
+          <p style="font-size: 16px; text-align: start; line-height: 1.8; color:  #004179;">
             I'm Savindra Sawarkar — a passionate artist working in the creative field for over 40 years. 
             My artworks reflect the essence of culture, humanity, and deep spiritual connections.
           </p>
@@ -33,7 +34,7 @@
       </div>
 
       <!-- Navigation Section -->
-      <div class="col-md-2 col-lg-4 my-4 mb-md-0">
+      <div class="col-md-3 col-lg-4 my-4 mb-md-0">
         <div class="widget m-4">
           <h3 class="widget-heading text-uppercase  mb-3 mx-5" style="color:  #004179; font-family:'Anton', sans-serif;">Links</h3>
           <ul class="list-unstyled mx-5" style="column-count: ; column-gap: 30px;">
@@ -47,10 +48,10 @@
       </div>
 
       <!-- Connect Section -->
-      <div class="col-md-2 col-lg-4 my-4 mb-md-0">
+      <div class="col-md-3 col-lg-4 my-4 mb-md-0">
         <div class="widget m-4" >
-          <h3 class="widget-heading text-uppercase mb-3 mx-4" style="color:  #004179; font-family:'Anton', sans-serif;">Connect</h3>
-          <ul class="list-unstyled ms-4 my-4 gap-4">
+          <h3 class="widget-heading text-uppercase mb-3 " style="color:  #004179; font-family:'Anton', sans-serif;">Connect</h3>
+          <ul class="list-unstyled  m-4 gap-4">
             <li><a href="https://www.facebook.com/savi.sawarkar.73?mibextid=rS40aB7S9Ucbxw6v" class="social-link"><span class="bi bi-facebook" style="color:  #004179; padding-bottom: 15px;"></span></a></li>
             <li><a href="https://www.linkedin.com/in/savi-sawarkar/" class="social-link"><span class="bi bi-linkedin" style="color: #004179;"></span></a></li>
             <li><a href="https://wa.me/9968149430" target="_blank" class="social-link"><span class="bi bi-whatsapp" style="color: #004179;"></span></a></li>
@@ -67,7 +68,7 @@
       <p class="mb-0" style="font-size: 16px;">
         © <span>2025</span> SaviSawarkar — All Rights Reserved
       </p>
-      <p style="font-size: 15px; color: #004179; font-family:sans-serif;">Crafted with Peace and Mindfulness <i class="bi bi-peace"></i> </p>
+      <p style="font-size: 16px; color: #004179; font-family:sans-serif;">Crafted with Peace and Mindfulness <i class="bi bi-peace"></i> </p>
     </div>
   </div>
 </footer>
@@ -126,6 +127,7 @@
 
   #footer .social-link {
     font-size: 1.5rem;
+    margin: 0px
   }
 
   #footer .social-link:hover {
