@@ -1,7 +1,7 @@
 @extends('frontend.layout.main')
 @section('main-container')
 
-<main class="main">
+<main class="main bg-white">
 
   <div class="artist-cover">
     <div class="artist-cover__content">
@@ -10,20 +10,24 @@
     </div>
   </div>
 
-  <section class="artist-intro">
+  <section class="artist-intro " >
     <div class="artist-intro__container">
       <div class="artist-intro__img">
         <img src="{{ asset('assets/img/about/savi.jpeg') }}" alt="Artist Portrait">
       </div>
       <div class="artist-intro__text">
-        <h2>About Savi</h2>
-        <p>
+        <h2 style=" font-family: 'Anton', sans-serif;
+        font-size: 32px;
+        margin-top: 30px;
+        color: var(--heading-color);
+      ">About Savi</h2>
+        <p style="font-size: 18px; line-height: 1.8; color:  #101820; text-align: justify;">
           Savindra Haribhau Sawarkar (born 1961) (also known as Savi Sawarkar) is an Indian artist, known for his use of Buddhist
           imagery and Dalit subjectivity. He has developed a distinct pictorial language over the course of his 40-year
           career, drawing from BR Ambedkar's political philosophy, neo-Buddhist imagery, and his own experiences as a
           Dalit.
         </p>
-        <p>
+        <p style="font-size: 18px; line-height: 1.8; color:  #101820; text-align: justify;">
           Savindra Sawarkar was born in 1961 in Nagpur, India. Growing up in an Ambedkarite family, he was exposed to
           radical ideas and critical thinking from an early age. His grandparents converted to Buddhism with Dr.
           Ambedkar in 1956, and his father, the first graduate in the family, was a railway officer who prioritized
@@ -39,8 +43,11 @@
   </section>
 
   <section class="artist-vision">
-    <h2>Career</h2>
-    <p>
+    <h2 style=" font-family: 'Anton', sans-serif;
+        font-size: 32px;
+        margin-top: 30px;
+        color: var(--heading-color);">Career</h2>
+     <p style="font-size: 18px; line-height: 1.8; color:  #101820; text-align: justify;">
       Savindra Sawarkar has been an assistant professor at the College of Fine Arts in New Delhi since December 1996,
       where he teaches painting. Prior to that, he was an artist with the Indian People's Theatre Association (IPTA)
       Delhi chapter from December 1982 to January 1992, where he designed posters and conducted workshops. From December
@@ -48,7 +55,8 @@
       part of a research group studying the effects of astronomical phenomena on painters and artists. In the early
       1990s, Sawarkar received grants to travel and study in the United States and Mexico.
     </p>
-    <p>Throughout the 1980s and early 1990s, Sawarkar practiced and exhibited his work in India and abroad. He worked
+     <p style="font-size: 18px; line-height: 1.8; color:  #101820; text-align: justify;">
+      Throughout the 1980s and early 1990s, Sawarkar practiced and exhibited his work in India and abroad. He worked
       with artists Krishna Reddy at the Lalit Kala Akademi's Garhi studios and KG Subramanyan at Santiniketan.[5] He has
       held numerous solo shows, including a year-long exhibition of his paintings in Germany organized by the
       prestigious human rights organization 'Bread for World' in 2005–6. In 2006, an exclusive painting show of his
@@ -62,15 +70,20 @@
       2006.[10] Sawarkar also exhibited at IIDS in 2008.[11] He published ‘Voice for the Voiceless’, a catalog of the
       exhibition held at M.F. Hussain Art Gallery, Jamia Millia Islamia in 2010. In the same year, Savi exhibited at the
       August Savage Gallery, which was curated by Gary Tartakov.</p>
-    <p>He also illustrated a Swedish book by the name of "Detta land som aldrig var vår moder"[14] which translates to
+     <p style="font-size: 18px; line-height: 1.8; color:  #101820; text-align: justify;">He also illustrated a Swedish book by the name of "Detta land som aldrig var vår moder"[14] which translates to
       "This land was never our Mother".</p>
   </section>
 
   <section class="artist-achievements">
-    <h2>Impact and recognition</h2>
+    <h2 style=" font-family: 'Anton', sans-serif;
+        font-size: 32px;
+        margin-top: 30px;
+        color: var(--heading-color);
+      ">Impact and recognition</h2>
     <div class="artist-achievements__grid">
       <div class="achievement">
-        <p>Art critics and scholars, such as Geeta Kapur, have noted the significance of Sawarkar's work in shaping a
+        <p style="font-family: sans-serif; font-size: 18px; line-height: 1.8; color:  #101820;">
+          Art critics and scholars, such as Geeta Kapur, have noted the significance of Sawarkar's work in shaping a
           new Dalit iconography within Indian art</p>
 
       </div>
@@ -78,8 +91,12 @@
   </section>
 
   <section class="artist-cta">
-    <h2>View My Portfolio</h2>
-    <a class="artist-cta__btn">Explore Artworks</a>
+    <h2 style=" font-family: 'Anton', sans-serif;
+        font-size: 32px;
+        margin-top: 30px;
+       
+      ">View My Portfolio</h2>
+    <a class="artist-cta__btn" style="font-family: sans-serif">Explore Artworks</a>
   </section>
 </main>
 
