@@ -20,16 +20,15 @@
     position: relative;
     z-index: 1;
     border-left: #004179 solid 4px;
-    padding: 10px
+    padding: 12px
   }
 
   /* Optional: Make logo look consistent */
   .logo img {
-    height: 80px;
+    height: 300px;
     width: auto;
-    margin-right: 12px;
+    margin-right: 8px;
     object-fit: contain;
-    
   }
 
   /* Responsive tweak */
@@ -48,9 +47,9 @@
     .foundation-title h4 {
       font-size: 0.8rem !important;
     }
-    .logo img {
-      height: 60px;
-      margin-right: 8px;
+    .logo-img {
+      height: 85px;
+      width: 80px;
     }
   }
 </style>
@@ -62,8 +61,8 @@
 
     <a href="/" class="logo d-flex align-items-center">
       <!-- ✅ Correct image path for Laravel -->
-      <img src="{{ asset('assets/img/logo.png') }}" alt="Logo">
-
+      <img src="{{ asset('assets/img/logo.png') }}" class="logo-img" alt="Logo" >
+      <!--
       <div>
         <div class="foundation-title position-relative mt-2">
           <div class="title-content position-relative">
@@ -78,6 +77,7 @@
           </div>
         </div>
       </div>
+      -->
     </a>
 
     <nav id="navmenu" class="navmenu">
