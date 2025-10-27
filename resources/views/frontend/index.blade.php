@@ -124,7 +124,7 @@
     }
 
     .text-content p {
-        font-size: 50px;
+        font-size: 18px;
         line-height: 1.8;
         color:  #101820;
     }
@@ -174,9 +174,7 @@
         overflow-x: auto;
         scroll-behavior: smooth;
         padding: 20px;
-        height: 250px;
-        
-        
+        height: 250px;     
     }
 
     .carousel article img {
@@ -292,7 +290,7 @@
     }
 
     .content-title {
-        font-size: 22px !important;
+        font-size: 24px !important;
     }
 
    
@@ -359,8 +357,8 @@
             </div>
             <div class="col-lg-4 order-lg-1">
                 <h1 class="section-subtitle" data-aos="fade-up" style="color:#b79b3d; font-family:'Anton', sans-serif;">Savi Sawarkar</h1>
-                <h3 class="mb-4" style="font-style: italic; color: #3c9df1;" data-aos="fade-up">Dalit Subjectivity Artist</h3>
-                <p data-aos="fade-up" style="color: #c1c3c5">
+                <h3 class="mb-4" style="font-style: italic; color: #3c9df1; font-size: 32px;" data-aos="fade-up">Dalit Subjectivity Artist</h3>
+                <p data-aos="fade-up text-start" style="color: #c1c3c5; font-size: 18px; text-align:justify;">
                     Assistant Professor in Delhi with a deep engagement in the fine arts — exploring the intersections
                     of caste, gender, and visual narratives through <i>Murals, Oil Painting, and Mixed Media</i>.
                 </p>
@@ -386,7 +384,7 @@
                 </div>
                 <div class="col-lg-8 " data-aos="fade-left">
                     <div class="text-content px-3">
-                        <span class="content-subtitle" style="color: #768692; font-size: 20px;">Artist Statement</span>
+                        <span class="content-subtitle" style="color: #768692; font-size: 18px;">Artist Statement</span>
                         <h2 class="content-title">Savindra Sawarkar (b.1961, Nagpur)</h2>
                         <p class="lead">
                             My art practice engages deeply with the brutality and injustice of caste and gender
